@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Swich1" parent="Widget.AppCompat.CompoundButton.Switch">
+        <!-- Color del track del Switch -->
+        <item name="colorSwitchThumbNormal">@color/md_blue_A200</item>
+
+        <!-- Color del thumb cuando el Switch está encendido -->
+        <item name="android:thumbTint">@color/md_blue_300</item>
+        <!-- Color del track cuando el Switch está encendido -->
+        <item name="android:trackTint">@color/md_blue_A100</item>
+    </style>
+
+    <style name="Swich2" parent="Widget.AppCompat.CompoundButton.Switch">
+
+        <item name="colorSwitchThumbNormal">@color/md_yellow_700</item>
+
+        <!--Fondo del swich-->
+        <item name="android:trackTint">@color/md_yellow_700</item>
+
+        <!--Color de la bola-->
+        <item name="android:thumbTint">@color/md_deep_orange_A700</item>
+
+    </style>
+
+    <style name="Swich3" parent="Widget.AppCompat.CompoundButton.Switch">
+
+        <item name="android:trackTint">@color/md_deep_purple_600</item>
+
+        <item name="android:thumbTint">@color/md_white_1000</item>
+
+
+    </style>
+
+</resources>

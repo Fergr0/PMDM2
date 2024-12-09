@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    tools:context=".Investiga108"
+    android:id="@+id/main"
+    android:gravity="center_horizontal">
+
+
+<Switch
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/primero"
+    style="@style/Swich1">
+</Switch>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/segundo"
+        style="@style/Swich2">
+    </Switch>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tercero"
+        style="@style/Swich3">
+    </Switch>
+
+
+
+</LinearLayout>

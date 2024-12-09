@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/lunes" android:title="Lunes"></item>
+    <item android:id="@+id/martes" android:title="Martes">
+        <menu>
+            <item android:id="@+id/martesSub1" android:title="primera hora"></item>
+            <item android:id="@+id/martesSub2" android:title="segunda hora" android:icon="@drawable/ic_launcher_foreground"></item>
+            <item android:id="@+id/martesSub3" android:title="tercera hora"></item>
+        </menu>
+    </item>
+    <item android:id="@+id/miercoles" android:title="Miércoles"></item>
+    <item android:id="@+id/jueves" android:title="Jueves"></item>
+    <item android:id="@+id/viernes" android:title="Viernes"></item>
+    <item android:id="@+id/sabado" android:title="Sábado"></item>
+    <item android:id="@+id/domingo" android:title="Domingo"></item>
+</menu>

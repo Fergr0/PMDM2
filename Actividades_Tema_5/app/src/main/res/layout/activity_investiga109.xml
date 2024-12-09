@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Investiga109"
+    android:id="@+id/main"
+    android:gravity="center_horizontal">
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/barra"
+        android:max="10"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        ></SeekBar>
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/barra2"
+        android:progressTint="@color/md_yellow_700"
+        android:thumbTint="@color/md_blue_A100"
+        android:progressBackgroundTint="@color/md_purple_400">
+
+    </SeekBar>
+
+</LinearLayout>

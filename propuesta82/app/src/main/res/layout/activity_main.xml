@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- TabLayout para las pestañas -->
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tabLayout"
+        android:elevation="3dp"
+        android:background="@color/md_cyan_500"
+        app:tabIndicator="@color/md_amber_900"
+        app:tabSelectedTextColor="@color/md_amber_900"
+        app:tabTextColor="@color/md_black_1000"
+        app:tabGravity="fill"/>
+
+    <!-- FrameLayout para los Fragmentos (cargados por el ViewPager) -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/contenedor"/>
+
+    <!-- ViewPager para la navegación entre fragments -->
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/contenedor2"
+        app:layout_behavior="@string/app_name"/>
+</LinearLayout>
