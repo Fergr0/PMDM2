@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "TableLayout"
+rootProject.name = "propuesta9_1"
 include(":app")
  
