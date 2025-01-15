@@ -12,10 +12,6 @@ import com.example.propuesta9_4.databinding.FragmentItemBinding;
 
 import java.util.List;
 
-/**
- * {@link RecyclerView.Adapter} that can display a {@link PlaceholderItem}.
- * TODO: Replace the implementation with code for your data type.
- */
 public class MyClassRecyclerViewAdapter extends RecyclerView.Adapter<MyClassRecyclerViewAdapter.ViewHolder> {
 
     private final List<PlaceholderItem> mValues;
